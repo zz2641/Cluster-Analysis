@@ -193,7 +193,7 @@ fit2<-kmodes(df,4) # kmodes clustering is for categorical value
 df1<-data.frame(df,fit2$cluster) # join the assigned cluster to the original dataframe
 
 #Creating a matrix for person-course
-df2<-df%>%
+df2<-df%>%  
   gather(Class,Course,-Full.Name)%>%
   filter(Course!="")%>%
   dplyr:: select(1,3) # just keep the name and course 
