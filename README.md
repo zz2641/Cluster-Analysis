@@ -14,7 +14,13 @@ Cluster analysis or clustering is the task of grouping a set of objects in such 
 # Results
 <img src="./p1.png" alt="Editor" width="750">
 
-<img src="./p2.png" alt="Editor" width="750">
+The average motivation in cluster 1 is above 0 while the counterpart in cluster 2 is below 0. At large, average motivation fluctuate week by week.
+
+It would be useful to determine how many people are in each cluster. We can do this easily with dplyr.
+
+<img src="./p2.png" alt="Editor" width="750"> <br>
+"Decide: 3 clusters is better/more informative than 2 cluters. Answer: FALSE"
+
 
 <img src="./p3.png" alt="Editor" width="900">
 Based on this this longtitude and latitude map, we could tell that students coming from the same place have more in common and are easily forming into clusters. To increase cultural exchange and activate classroom dynamics, it's better to have students from different clusters to team up for group work/ discussion.
