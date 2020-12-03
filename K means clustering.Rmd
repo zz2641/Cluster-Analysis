@@ -45,12 +45,11 @@ After balancing the pros and cons of either way, we decided to remove people wit
 K3 <- na.omit(K2) #This command create a data frame with only those people with no missing values. It "omits" all rows with missing values, also known as a "listwise deletion". EG - It runs down the list deleting rows as it goes.
 ```
 
-Another pre-processing step used in K-means is to !!standardize the values !!so that they have the same range. We do this because we want to !!treat each week as equally important!!! - if we do not standardise then the week with the largest range will have the greatest impact on which clusters are formed. We standardise the values by using the "scale()" command.
+Another pre-processing step used in K-means is to !!standardize the values !!so that they have the same range. We do this because we want to !!treat each week as equally important!!! - if we do not standardize then the week with the largest range will have the greatest impact on which clusters are formed. We standardize the values by using the "scale()" command.
 
 ```{r}
 K3 <- scale(K3) # scales the columns! to erase the differences incurred by individual differences
 ```
-
 
 Now we will run the K-means clustering algorithm
 1) The algorithm starts by randomly choosing some starting values 
