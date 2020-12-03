@@ -12,5 +12,9 @@ Cluster analysis or clustering is the task of grouping a set of objects in such 
 `library(ggplot)`
 
 # Results
-![]()
+<img src="./p1.png" alt="Editor" width="500">
+
+<img src="./p2.png" alt="Editor" width="500">
+
+<img src="./p3.png" alt="Editor" width="500">
 Based on this this longtitude and latitude map, we could tell that students coming from the same place have more in common and are easily forming into clusters. To increase cultural exchange and activate classroom dynamics, it's better to have students from different clusters to team up for group work/ discussion.
